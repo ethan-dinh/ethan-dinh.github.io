@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title> Project: Ethan's Portfolio </title>
-    </head>
-      
-    <body>
-      <h1> Welcome to my webpage </h1>
-    </body>
+<html lang="en">
+
+  <head>
+    <title>Ethan's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- loading javascript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  
+  <nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="#">ED</a>
+        </div>
+
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+  </nav>
+
+  <section class="home"> </section>
+
+      <div class="intro-text">
+        <h1 class="name"> Ethan Dinh </h1>
+        <div class="typing-container"> 
+          | <span id="feature-text"></span> |
+        </div>
+      </div>
+
+  </section>
+  
+  <script src="scripts/script.js"></script>
+
+  <body>
+    <!-- about section-->
+    <section id="about">
+      <h1 class="text-center">About Me</h1>
+
+      <div class="info-text">
+        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio section-->
+    <section id="portfolio">
+      <h1 class="text-center">My Portfolio</h1>
+      <div class="animated-scroll"> </div>
+    </section>
+    
+  </body>
 </html>

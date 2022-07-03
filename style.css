@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700');
+@import "nav.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 70.5%;
+}
+
+h1, h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 10rem;
+}
+
+.subheader {
+    font-size: 7em;
+}
+
+.info-text {
+    font-size: 16px;
+}
+
+/* text css above hero image*/
+.intro-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+section#about {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 10rem;
+    padding-bottom: 7em;
+    height: 100rem;
+}
+
+section#portfolio {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 10rem;
+    padding-bottom: 7em;
+    height: 100rem;
+}
+
+.text-center {
+    font-size: 5rem;
+}
+
+/* This is the typing animation */
+.typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+span#feature-text {
+    padding-left: 14px;
+    padding-right: 14px;
+}
