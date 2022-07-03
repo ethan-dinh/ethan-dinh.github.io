@@ -14,6 +14,15 @@ h1, h2 {
     margin-block-end: 0;
 }
 
+/* Home section */
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/heroImage.jpg');
+    background-position: relative;
+	background-size: cover;
+}
+
 .name {
     font-weight: 600;
     font-size: 10rem;
@@ -37,12 +46,19 @@ h1, h2 {
     color: white;
 }
 
+.text-center-white {
+    color: white;
+    font-size: 5rem;
+}
+
 section#about {
     padding-left: 6rem;
     padding-right: 6rem;
     padding-top: 10rem;
     padding-bottom: 7em;
-    height: 100rem;
+    height: 70rem;
+    background-color: white;
+    position: relative;
 }
 
 section#portfolio {
@@ -51,6 +67,8 @@ section#portfolio {
     padding-top: 10rem;
     padding-bottom: 7em;
     height: 100rem;
+    background-color: #343434;
+    position: relative;
 }
 
 .text-center {

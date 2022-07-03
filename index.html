@@ -12,13 +12,14 @@
     <!-- loading javascript files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
-  
-  <nav class="nav">
-    <div class="container">
+
+  <body>
+    <nav class="nav">
+      <div id = "nav-bar" class="container">
         <div class="logo">
             <a href="#">ED</a>
         </div>
-
+  
         <div id="mainListDiv" class="main_list">
             <ul class="navlinks">
                 <li><a href="#about">About</a></li>
@@ -27,31 +28,29 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-
+  
         <span class="navTrigger">
             <i></i>
             <i></i>
             <i></i>
         </span>
-    </div>
-  </nav>
-
-  <section class="home"> </section>
-
+      </div>
+    </nav>
+  
+    <!-- Home section-->
+    <section id="home" class = "home"> </section>
+  
       <div class="intro-text">
         <h1 class="name"> Ethan Dinh </h1>
         <div class="typing-container"> 
           | <span id="feature-text"></span> |
         </div>
       </div>
-
-  </section>
   
-  <script src="scripts/script.js"></script>
+    </section>
 
-  <body>
     <!-- about section-->
-    <section id="about">
+    <section id="about">      
       <h1 class="text-center">About Me</h1>
 
       <div class="info-text">
@@ -62,11 +61,16 @@
 
     <!-- Portfolio section-->
     <section id="portfolio">
-      <h1 class="text-center">My Portfolio</h1>
+      <h1 class="text-center-white">My Portfolio</h1>
       <div id="like_button_container"> </div>
     </section>
-    
-    <!-- Load our React component. -->
-    <script type = "module" src = "scripts/react_pages.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src = "scripts/scrollmagic.js"></script>
   </body>
+  
 </html>
