@@ -40,3 +40,7 @@ const FadeUp = batch(Fade(), Move(), Sticky());
     </Animator>
   </ScrollPage>
 </ScrollContainer>
+
+const domContainer = document.querySelector('#animated-scroll');
+const root = ReactDOM.createRoot(domContainer);
+root.render(e(LikeButton));
