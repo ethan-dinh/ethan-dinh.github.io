@@ -51,10 +51,13 @@
     color: #fff;
     line-height: 65px;
     font-size: 1.7rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
 }
 
 .nav div.main_list ul li a:hover {
-    color: #37423d;
+    background: orange;
+    color: white;
 }
 
 .navTrigger {
