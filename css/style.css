@@ -18,7 +18,7 @@ h1, h2 {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url('images/heroImage.jpg');
+    background-image: url('../images/heroImage.jpg');
     background-position: relative;
 	background-size: cover;
 }
@@ -33,7 +33,10 @@ h1, h2 {
 }
 
 .info-text {
-    font-size: 16px;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 1.75;
 }
 
 /* text css above hero image*/
@@ -46,14 +49,19 @@ h1, h2 {
     color: white;
 }
 
+.text-center {
+    font-size: 5rem;
+    margin-bottom: 7rem;
+}
+
 .text-center-white {
     color: white;
     font-size: 5rem;
 }
 
 section#about {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
     padding-top: 10rem;
     padding-bottom: 7em;
     height: 100rem;
@@ -71,8 +79,19 @@ section#portfolio {
     position: relative;
 }
 
-.text-center {
-    font-size: 5rem;
+#about-img  {
+    float: left;    
+    margin-right: 10rem;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+#subheading {
+    color: orange;
+    text-transform: uppercase;
+    line-height: 1.5;
 }
 
 /* This is the typing animation */
